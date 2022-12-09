@@ -20,7 +20,7 @@ public class ActitimeLoginPage extends Base{
 	@FindBy(xpath = "//div[text()='Login ']")
 	private WebElement loginBtn;
 
-	public void singInToActitime(String username, String pass) {
+	public void signInToActitime(String username, String pass) {
 		userName.sendKeys(username);
 		password.sendKeys(pass);
 		loginBtn.click();

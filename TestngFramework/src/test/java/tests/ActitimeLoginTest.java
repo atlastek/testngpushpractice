@@ -25,10 +25,10 @@ public class ActitimeLoginTest extends Base{
 	
 	@Test(enabled = true)
 	@Parameters({ "userName", "password" })
-	public void loginToHotelTestOne(String userName, String password) {
+	public void loginToHotelTestOne() {
 		acti = new ActitimeLoginPage();
 		
-		acti.singInToActitime(userName, password);
+		acti.signInToActitime("admin", "manager");
 
 
 	}

@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.ParallelExecution">
+      <class name="tests.NewLoginToActi">
         <methods>
-          <include name="fireFoxBrowser"/>
+          <include name="f"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- testNG.ParallelExecution -->
+      </class> <!-- tests.NewLoginToActi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
